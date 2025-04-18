@@ -1,7 +1,6 @@
-package İnheritance;
+package Inheritance;
 
 class Cat extends Animal {
-
     Cat(String name, int age) {
         super(name, age);
     }

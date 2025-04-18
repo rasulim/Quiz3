@@ -1,4 +1,4 @@
-package İnheritance;
+package Inheritance;
 
 class Animal {
     String name;
@@ -10,7 +10,6 @@ class Animal {
     }
 
     void makeSound() {
-        System.out.println("Animal makes a sound");
+        System.out.println("Animal sound");
     }
 }
-

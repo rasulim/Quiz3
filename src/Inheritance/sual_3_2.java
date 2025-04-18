@@ -1,4 +1,4 @@
-package İnheritance;
+package Inheritance;
 // -  Animal sinfi yaradın (name və age sahələri olsun).
 // -  makeSound() metodu olsun.
 // -  Dog və Cat siniflərini yaradın və makeSound() metodunu fərqli formada ("Hav hav!", "Miyav miyav!") implement edin.
@@ -7,10 +7,10 @@ package İnheritance;
 
 public class sual_3_2 {
     public static void main(String[] args) {
-        Animal dog = new Dog("Rex", 3);
-        dog.makeSound();
+        Dog dog = new Dog("Max", 3);
+        Cat cat = new Cat("Mimi", 2);
 
-        Animal cat = new Cat("Mia", 2);
+        dog.makeSound();
         cat.makeSound();
     }
 }
