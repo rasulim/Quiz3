@@ -7,4 +7,19 @@ package Abstraction;
 // Tələb: Car və Bike obyektləri yaradıb onları test edən bir main metodu yazın.
 
 public class sual_7_1 {
+    public static void main(String[] args) {
+
+        Vehicle myCar = new Car("Toyota");
+        Vehicle myBike = new Bike("Yamaha");
+
+        myCar.displayBrand();
+        myCar.start();
+        myCar.stop();
+
+        System.out.println();
+        
+        myBike.displayBrand();
+        myBike.start();
+        myBike.stop();
+    }
 }
